@@ -12,14 +12,18 @@ class Router {
     private $router;
 
     public function __construct() {
+        header('Access-Control-Allow-Origin: *');
+        header('Access-Control-Allow-Headers: Content-Type');
+        header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+        header('Content-Type: application/json; charset=utf-8');
+
         $this->router = \Bit55\Litero\Router::fromGlobals();
-        $this->router->add('/option',function (){
-            return true;
-        });
+        
+        $_POST = json_decode(file_get_contents('php://input'), true);
     }
 
-    public function add($path, $handler, $method='GET') {
-        $this->router->add($path,$handler, $method);
+    public function add($path, $handler) {
+        $this->router->add($path,$handler);
     }
 
     public function start() {

@@ -53,7 +53,6 @@ class Controller
     }
 
     private function response($data, $status=200) {
-        header('HTTP/1.1 200 OK');
         echo json_encode([
             'data' => $data,
             'status' => $status
