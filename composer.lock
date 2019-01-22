@@ -1,0 +1,101 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5754509a76d979f58b313965f3f153ca",
+    "packages": [
+        {
+            "name": "bit55/litero",
+            "version": "0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bit55/litero.git",
+                "reference": "9cc36e902f0654f277107cd007674594c20d2cf7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bit55/litero/zipball/9cc36e902f0654f277107cd007674594c20d2cf7",
+                "reference": "9cc36e902f0654f277107cd007674594c20d2cf7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^5.6"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Bit55\\Litero\\": "src/Bit55/Litero"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Eugene Dementyev",
+                    "email": "devg@ya.ru"
+                }
+            ],
+            "description": "Extra light router and dispatcher for small web applications.",
+            "homepage": "https://github.com/bit55/litero",
+            "time": "2017-08-03T05:19:46+00:00"
+        },
+        {
+            "name": "thingengineer/mysqli-database-class",
+            "version": "2.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ThingEngineer/PHP-MySQLi-Database-Class.git",
+                "reference": "f07da2ac9b022dfc10051fc0c76711949237ce95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ThingEngineer/PHP-MySQLi-Database-Class/zipball/f07da2ac9b022dfc10051fc0c76711949237ce95",
+                "reference": "f07da2ac9b022dfc10051fc0c76711949237ce95",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "MysqliDb.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Campbell",
+                    "email": "josh.lee.campbell@gmail.com",
+                    "homepage": "https://github.com/joshcam",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander V. Butenko",
+                    "email": "a.butenka@gmail.com",
+                    "homepage": "http://smarttechdo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Wrapper for a PHP MySQL class, which utilizes MySQLi and prepared statements.",
+            "time": "2015-06-07T20:58:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "thingengineer/mysqli-database-class": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
